@@ -3,10 +3,13 @@
     "python-envs.defaultPackageManager": "ms-python.python:poetry",
     "cSpell.words": [
         "fixedquery",
+        "getstudents",
         "Pydantic",
         "pythontypes",
         "rollno",
         "sendrequest",
-        "Zarlish"
+        "Zarlish",
+        "zarmeen",
+        "zgfiddrkbqfirzplbumo"
     ]
 }
