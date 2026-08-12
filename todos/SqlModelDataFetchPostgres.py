@@ -6,7 +6,7 @@ app = FastAPI()
 
 #           _________ Engine Create _________ 
 
-connection_string = "postgresql://postgres.USERNAME:PASSWORD@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"
+connection_string = "postgresql://postgres.username:Password@aws-0-ap-southeast-1.pooler.supabase.com:5432/postgres"
 connection  = create_engine(connection_string)
 #           _________ Table Create / Schema define  _________
 # table will be of name of class
@@ -35,12 +35,12 @@ def getStudents():
 
 ##          ______ Filter Data with Where __________
 @app.get("/students")
-def getStudents():
+def getStudentsByName():
     with Session(connection) as session: 
         statement = select(Students).where(Students.name == "zarlish")
         results = session.exec(statement) 
-        for students in results:
-            print(students)
+        data = results.all()
+        return data      
         
 ##          _________  Filter Through Client Side __________
 # GET a specific student by ID

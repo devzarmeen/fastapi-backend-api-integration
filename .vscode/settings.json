@@ -2,8 +2,11 @@
     "python-envs.defaultEnvManager": "ms-python.python:poetry",
     "python-envs.defaultPackageManager": "ms-python.python:poetry",
     "cSpell.words": [
+        "dotenv",
         "fixedquery",
         "getstudents",
+        "gettodos",
+        "gettodosbytitle",
         "Pydantic",
         "pythontypes",
         "rollno",
