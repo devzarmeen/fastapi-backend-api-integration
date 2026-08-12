@@ -156,6 +156,7 @@ Uses SQLModel's where() condition to filter records.
 Example:
 
 statement = select(Todo).where(Todo.title == "zarlish")
+
 **3. Create Todo**
 POST /create_todo
 
@@ -166,6 +167,7 @@ Example request body:
     "description": "Practice FastAPI and SQLModel",
     "is_completed": false
 }
+
 **4. Update Todo**
 PUT /update_todo/{id}
 
@@ -188,6 +190,7 @@ Opens a database session
 Fetches Todo records
 Converts the data into CSV format
 Returns the CSV file as a response
+
 ## 🔎 API Parameters
 
 The project demonstrates different ways to receive data from a client.
@@ -224,16 +227,20 @@ Test POST/PUT/DELETE APIs
 View request and response schemas
 Debug API behavior
 # ⚙️ Installation & Setup
+
 **1. Clone Repository**
 git clone https://github.com/devzarmeen/fastapi-backend-api-integration.git
 cd fastapi-backend-api-integration
+
 **2. Install Dependencies**
 This project uses Poetry.
 poetry install
+
 **3. Activate Poetry Environment**
 poetry shell
 Or run commands directly:
 poetry run <command>
+
 **4. Configure Environment Variables**
 
 Create a .env file in the project root:
@@ -306,6 +313,7 @@ CRUD Operations
 API Documentation
    ↓
 Production-oriented Backend Structure
+
 # 🚀 Future Improvements
 
 Possible improvements include:
