@@ -50,7 +50,7 @@ def getTodo(rollno:str,username:str):
 ## Function for Uvicorn
 
 def running():
-    uvicorn.run("todos.sendrequest:app1",host="127.0.0.1", port=8081, reload= True)
+    uvicorn.run("todos.sendrequest:app1",host="127.0.0.1", port=8080, reload= True)
     
     ## IP address "127.0.0.1" is used for development and testing on the same device.
     ## It is also called localhost.
