@@ -47,39 +47,6 @@ This project is built with **FastAPI** and demonstrates how a backend applicatio
 
 | Swagger UI           | API Testing & Documentation 
 
-## 📁 Project Structure
-
-fastapi-backend-api-integration/
-│
-├── todos/
-│   ├── config/
-│   │   ├── db.py
-│   │   └── securityrules.md
-│   │
-│   ├── models/
-│   │   ├── todos.py
-│   │   └── __init__.py
-│   │
-│   ├── DynamicTodosAppSQLModel.py
-│   ├── FastApiBodyParameters.py
-│   ├── QueryParametersStringNumValidations.py
-│   ├── QueryPathParameters.py
-│   ├── SendResponse.py
-│   ├── SqlModelDataFetchPostgres.py
-│   ├── sendrequest.py
-│   └── __init__.py
-│
-├── tests/
-│
-├── .gitignore
-├── Introduction.md
-├── MasteringApiIntegration.md
-├── DataFetchConnectionwithPostgres.md
-├── PoetryUvicorn.md
-├── README.md
-├── pyproject.toml
-└── poetry.lock
-
 ## 🗄️ Database Architecture
 
 The application uses PostgreSQL through Supabase.
