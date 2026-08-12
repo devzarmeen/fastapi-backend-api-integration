@@ -36,9 +36,11 @@ This project is built with **FastAPI** and demonstrates how a backend applicatio
 | Poetry         | Dependency & Environment Management  |
 | Mypy           | Static Type Checking                 |
 | Swagger UI     | API Testing & Documentation          |
+
 ## 🗄️ Database Architecture
 
-The application uses PostgreSQL through Supabase.
+The application uses **PostgreSQL** through **Supabase**.
+
 
 FastAPI Application
         │
@@ -46,16 +48,10 @@ FastAPI Application
    SQLModel ORM
         │
         ▼
-   Database Engine
+  Database Engine
         │
         ▼
  PostgreSQL / Supabase
-
-Database configuration is separated into:
-
-todos/config/db.py
-
-This keeps database connection logic separate from API routes and models.
 
 ## 🔐 Environment Variables
 
