@@ -22,31 +22,20 @@ This project is built with **FastAPI** and demonstrates how a backend applicatio
 - Poetry Environment Management
 - Mypy Type Checking
 
-
 ## 🛠️ Tech Stack
 
-| Technology           | Purpose 
-
-| Python               | Backend Development 
-
-| FastAPI              | REST API Framework 
-
-| SQLModel             | ORM & Data Models 
-
-| PostgreSQL           | Relational Database 
-
-| Supabase             | Hosted PostgreSQL Database 
-
-| python-dotenv        | Environment Variables 
-
-| Uvicorn              | ASGI Server 
-
-| Poetry               | Dependency & Environment Management 
-
-| Mypy                 | Static Type Checking 
-
-| Swagger UI           | API Testing & Documentation 
-
+| Technology      | Purpose                              |
+|----------------|--------------------------------------|
+| Python         | Backend Development                  |
+| FastAPI        | REST API Framework                   |
+| SQLModel       | ORM & Data Models                    |
+| PostgreSQL     | Relational Database                  |
+| Supabase       | Hosted PostgreSQL Database           |
+| python-dotenv  | Environment Variables                |
+| Uvicorn        | ASGI Server                          |
+| Poetry         | Dependency & Environment Management  |
+| Mypy           | Static Type Checking                 |
+| Swagger UI     | API Testing & Documentation          |
 ## 🗄️ Database Architecture
 
 The application uses PostgreSQL through Supabase.
